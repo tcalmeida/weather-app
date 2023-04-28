@@ -8,21 +8,20 @@ The App consumes [OpenWeather](https://openweathermap.org/) API to retrieve curr
 
 ## Examples
 
-![Remote Image 1](https://drive.google.com/file/d/1zEJ4VGJ1EgG4RTl_qvfYppFdCveaDti4/view?usp=sharing)
+![img-1](https://user-images.githubusercontent.com/113650703/235217395-8a6364aa-e3ee-43db-8b2f-a2d6bff9a29f.png)
 
-![Remote Image 2](https://drive.google.com/file/d/1zEJ4VGJ1EgG4RTl_qvfYppFdCveaDti4/view?usp=sharing)
-
-
-## Tech Stack
-
-- JavaScript
-- HTML
-- CSS
+![img-2](https://user-images.githubusercontent.com/113650703/235217412-0690426e-d0a6-4022-87b8-a5e47b8500c9.png)
 
 ## Installation
 
-1. Clone repository
-2. Create a .env file according to example.env if you want to change server PORT
-3. Install packages `npm i`
-4. Run server `npm run start`
-5. Access `https://localhost:3000` or your selected PORT
+1. Create your API Key (see bellow)
+2. Clone repository
+3. Enter your API Key on `const apiKey = "INSERT YOUR API KEY HERE";` in public/script.js
+
+
+## How to generate the API Key
+
+ - Step 1 – Go to [https://openweathermap.org/](https://openweathermap.org/), click on SIGN IN in the navigation bar and create an account.
+ - Step 2 - Go to your profile on navigation bar and choose My API Keys.
+ - Step 3 - Copy the active key.
+ - Step 4 - Paste the key inside the quotation marks on `const apiKey`.
