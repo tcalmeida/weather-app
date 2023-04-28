@@ -7,7 +7,16 @@ form.addEventListener('submit', (e) => {
 
   const inputValue = search.value;
 
-  
+  async function getCityData() {
+    try {
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${APIKEY}`
+      );
+      return await response.json();
+    } catch (err) {
+      throw err;
+    }
+  }
 
 
 
