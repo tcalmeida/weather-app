@@ -4,7 +4,7 @@ A minimalist app that shows the temperature and weather conditions from 200,000 
 
 ## Features
 
-The App consumes [OpenWeather](https://openweathermap.org/) API to retrieve current weather data for any location on Earth.
+The App consumes [OpenWeather](https://openweathermap.org/) API to get current weather data for any location on Earth.
 
 ## Examples
 
