@@ -18,10 +18,9 @@ The App consumes [OpenWeather](https://openweathermap.org/) API to retrieve curr
 2. Clone repository
 3. Enter your API Key on `const apiKey = "INSERT YOUR API KEY HERE";` in public/script.js
 
-
 ## How to generate the API Key
 
- - Step 1 – Go to [https://openweathermap.org/](https://openweathermap.org/), click on SIGN IN in the navigation bar and create an account.
- - Step 2 - Go to your profile on navigation bar and choose My API Keys.
- - Step 3 - Copy the active key.
- - Step 4 - Paste the key inside the quotation marks on `const apiKey`.
+- Step 1 – Go to [https://openweathermap.org/](https://openweathermap.org/), click on SIGN IN in the navigation bar and create an account.
+- Step 2 - Go to your profile on navigation bar and choose My API Keys.
+- Step 3 - Copy the active key.
+- Step 4 - Paste the key inside the quotation marks on `const apiKey`.
