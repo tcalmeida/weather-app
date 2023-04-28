@@ -22,6 +22,11 @@ form.addEventListener('submit', (e) => {
     }
   }
 
+  const weatherData = getCityData();
+  weatherData.then((data) => {
 
+    const temp = KelvintoCelsius(data.main.temp);
+    const weatherIcon = data.weather[0].icon;
 
+  });
 })
