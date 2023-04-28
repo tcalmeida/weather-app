@@ -8,7 +8,7 @@ The App consumes [OpenWeather](https://openweathermap.org/) API to retrieve curr
 
 ## Examples
 
-![Remote Image 1](https://drive.google.com/file/d/1zEJ4VGJ1EgG4RTl_qvfYppFdCveaDti4/view?usp=sharing)
+![Remote Image 1](https://www.dropbox.com/s/thazmws2uib6zcy/img-1.png?dl=0)
 
 ![Remote Image 2](https://drive.google.com/file/d/1zEJ4VGJ1EgG4RTl_qvfYppFdCveaDti4/view?usp=sharing)
 
