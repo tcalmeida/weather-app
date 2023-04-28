@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
 
   const weatherData = getCityData();
   weatherData.then((data) => {
-    
+
     const temp = kelvinToCelsius(data.main.temp);
     const weatherIcon = data.weather[0].icon;
 
@@ -35,5 +35,7 @@ form.addEventListener('submit', (e) => {
     <small>${data.weather[0].main}</small>
     `;
 
+    main.innerHTML = '';
+    main.appendChild(weather);
   });
 })
