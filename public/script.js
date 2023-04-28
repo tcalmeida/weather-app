@@ -2,6 +2,10 @@ const form = document.getElementById('form');
 const search = document.getElementById('search');
 const main = document.getElementById('main');
 
+function KelvintoCelsius(convertTemp) {
+  return Math.floor(convertTemp - 273.15);
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault()
 
