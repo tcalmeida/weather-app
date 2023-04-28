@@ -1,3 +1,4 @@
+const apiKey = 'cb3a54d3ceaa18fdeb42d89ec4e948de';
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 const main = document.getElementById('main');
@@ -14,7 +15,7 @@ form.addEventListener('submit', (e) => {
   async function getCityData() {
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${APIKEY}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}`
       );
       return await response.json();
     } catch (err) {
