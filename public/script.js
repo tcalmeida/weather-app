@@ -24,9 +24,16 @@ form.addEventListener('submit', (e) => {
 
   const weatherData = getCityData();
   weatherData.then((data) => {
-
-    const temp = KelvintoCelsius(data.main.temp);
+    
+    const temp = kelvinToCelsius(data.main.temp);
     const weatherIcon = data.weather[0].icon;
+
+    const weather = document.createElement('div');
+    weather.classList.add('weather');
+    weather.innerHTML = `
+    <h2><img src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png" /> ${temp}ºC <img src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png" /></h2>
+    <small>${data.weather[0].main}</small>
+    `;
 
   });
 })
