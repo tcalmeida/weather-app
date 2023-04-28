@@ -8,7 +8,7 @@ function kelvinToCelsius(convertTemp) {
 }
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault()
+  e.preventDefault();
 
   const inputValue = search.value;
 
@@ -25,7 +25,6 @@ form.addEventListener('submit', (e) => {
 
   const weatherData = getCityData();
   weatherData.then((data) => {
-
     const temp = kelvinToCelsius(data.main.temp);
     const weatherIcon = data.weather[0].icon;
 
@@ -39,4 +38,4 @@ form.addEventListener('submit', (e) => {
     main.innerHTML = '';
     main.appendChild(weather);
   });
-})
+});

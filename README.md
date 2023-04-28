@@ -14,7 +14,7 @@ The App consumes [OpenWeather](https://openweathermap.org/) API to retrieve curr
 
 ## Installation
 
-1. Create your API Key (see bellow)
+1. Create your API Key (see guide bellow)
 2. Clone repository
 3. Enter your API Key on `const apiKey = "INSERT YOUR API KEY HERE";` in public/script.js
 
