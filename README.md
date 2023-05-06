@@ -20,7 +20,7 @@ The App consumes [OpenWeather](https://openweathermap.org/) API to get current w
 
 ## How to generate the API Key
 
-1. Go to [https://openweathermap.org/](https://openweathermap.org/), click on SIGN IN in the navigation bar and create an account.
-2. Go to your profile on navigation bar and choose My API Keys.
-3. Copy the active key.
-4. Paste the key inside the quotation marks on `const apiKey`.
+1. Go to [https://openweathermap.org/](https://openweathermap.org/), click on SIGN IN in the navigation bar and create an account
+2. Go to your profile on navigation bar and choose My API Keys
+3. Copy the active key
+4. Paste the key inside the quotation marks on `const apiKey`
